@@ -1,13 +1,13 @@
 # DFD_on_FPGA
 The hardware acceleration design of DFD algorithm developed by Vivado HLS 2017.4
-# -------------------------------------------------------------------------------
-
-# DFD.cpp / DFD.h
-The HLS based code for DFD
-
-# Test.cpp
-Test bench file in HLS.
 
 # How to use the code
 1. Create a working space in HLS
-2. 
+2. Add DFD.cpp/DFD.h to Source and Test.cpp to test bench.
+3. Run C simulation and High Level Synthesis in HLS
+4. The result will be saved in result.txt
+5. Open Matlab to load the .txt file and use these two command lines
+  ```
+  $ result_img = reshape(result, 640,480);
+  $ mesh(result_img);
+  ```
