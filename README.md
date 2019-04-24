@@ -11,3 +11,5 @@ The hardware acceleration design of DFD algorithm developed by Vivado HLS 2017.4
   $ result_img = reshape(result, 640,480);
   $ mesh(result_img);
   ```
+# About the author
+Rulin Chen, a undergraduate student in EE, conducted by Alex Noel Josephraj, professor in Shantou University, Guangdong Province, China. 
